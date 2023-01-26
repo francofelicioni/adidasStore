@@ -1,16 +1,16 @@
 productsHTML(products);
 
-// Abrir Carrito
+// Open Cart
 cartIcon.onclick = () => {
     cart.classList.add('active');
 };
-// Cerrar carrito
+// Close cart
 closeCart.onclick = () => {
     cart.classList.remove('active');
 }
 
-// Cart Render 
-if (document.readyState == 'loading') {
+// Cart Render
+if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', ready);
 } else {
     ready();
