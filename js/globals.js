@@ -1,19 +1,19 @@
-// API Provincias
+// State API
 const urlProvincias = "https://apis.datos.gob.ar/georef/api/provincias";
 const urlMunicipios = "https://apis.datos.gob.ar/georef/api/municipios?provincia=######&campos=id,nombre&max=100";
 
-// Productos display
+// Display products
 const products = [];
 const productsRender = document.querySelector('.shop-content');
 
-//Seleccion productos
+//Products selection
 const addCart = document.querySelector('.add-cart');
 
-// Carrito
+// Cart
+let cartArray = [];
+let cart = document.querySelector('.cart');
 let cartIcon = document.querySelector('#cart-icon');
 let closeCart = document.querySelector('#close-cart');
-let cart = document.querySelector('.cart');
-let cartArray = [];
 
 class Product {
     constructor(id, desc, price, img) {
