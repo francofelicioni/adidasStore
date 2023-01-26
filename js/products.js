@@ -1,8 +1,8 @@
-products.push(new Product(1, "ZAPATILLAS ULTRABOOST", 120, "./images/1.png"));
-products.push(new Product(2, "ZAPATILLAS FORUM 84", 80, "./images/2.png"));
-products.push(new Product(3, "ZAPATILLAS MATCHBREAK", 90, "./images/3.png"));
-products.push(new Product(4, "ZAPATILLAS D-10S", 110, "./images/4.png"));
-products.push(new Product(5, "ZAPATILLAS COURTPHASE", 100, "./images/5.png"));
-products.push(new Product(6, "ZAPATILLAS GALAXY 5", 80, "./images/6.png"));
-products.push(new Product(7, "ZAPATILLAS SUPERNOVA 2.0", 90, "./images/7.png"));
-products.push(new Product(8, "ZAPATILLAS FORUM BOLD", 110, "./images/8.png"));
+products.push(new Product(1, "ULTRABOOST Shoes", 120, "./assets/1.png"));
+products.push(new Product(2, "FORUM 84 Shoes", 80, "./assets/2.png"));
+products.push(new Product(3, "MATCHBREAK Shoes", 90, "./assets/3.png"));
+products.push(new Product(4, "D10S Shoes", 110, "./assets/4.png"));
+products.push(new Product(5, "COURTPHASE Shoes", 100, "./assets/5.png"));
+products.push(new Product(6, "GALAXY 5 Shoes", 80.5, "./assets/6.png"));
+products.push(new Product(7, "SUPERNOVA 2.0 Shoes", 90, "./assets/7.png"));
+products.push(new Product(8, "RETROPY E5 Shoes", 110, "./assets/8.png"));
